@@ -8,7 +8,7 @@
 
 ## 빠르게 시작하기
 
-Windows x64용 미리보기 배포입니다.
+Windows x64용 미리보기 배포입니다. Microsoft Visual C++ x64 런타임이 필요합니다.
 
 [![Download](https://img.shields.io/badge/Download-Rium_Studio_for_Windows-20242c?style=for-the-badge&logo=windows)](https://github.com/contentriumkorea/rium-studio/releases/download/v0.17.0-rium.1/Rium-Studio-Windows-x64.zip)
 

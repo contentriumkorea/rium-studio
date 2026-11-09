@@ -1,5 +1,7 @@
 # Rium Studio 설치 및 실행
 
+필수 환경: Windows x64와 Microsoft Visual C++ x64 런타임. `VCRUNTIME140.dll` 누락 오류가 나오면 Microsoft의 공식 Visual C++ 재배포 가능 패키지를 설치하세요. 그래픽 드라이버는 사용 중인 GPU에 맞게 설치되어 있어야 합니다.
+
 ZIP을 압축 해제한 다음 `Install Rium Studio.cmd`를 실행하면 현재 Windows 사용자 계정에 설치됩니다. 관리자 권한은 필요하지 않습니다. 설치 스크립트는 패키지 SHA-256을 확인하고 바탕화면·시작 메뉴 바로가기와 제거 항목을 등록합니다.
 
 기존 설치가 실행 중이면 먼저 프로젝트를 저장하고 프로그램을 종료하세요. 인식 가능한 기존 Rium 설치는 설정 위치를 유지합니다. 새 설치의 기본 위치는 `%LOCALAPPDATA%\Programs\Rium Studio`입니다.
