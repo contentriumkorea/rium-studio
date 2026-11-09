@@ -8,13 +8,15 @@
 
 ## 빠르게 시작하기
 
-Windows x64용 미리보기 배포입니다. Microsoft Visual C++ x64 런타임이 필요합니다.
+Windows 10/11 x64용 미리보기 배포입니다. 설치 EXE에 프로그램 본체와 필요한 실행 라이브러리를 포함했습니다.
 
-[![Download](https://img.shields.io/badge/Download-Rium_Studio_for_Windows-20242c?style=for-the-badge&logo=windows)](https://github.com/contentriumkorea/rium-studio/releases/download/v0.17.0-rium.1/Rium-Studio-Windows-x64.zip)
+[![Download](https://img.shields.io/badge/Download-Rium_Studio_for_Windows-20242c?style=for-the-badge&logo=windows)](https://github.com/contentriumkorea/rium-studio/releases/download/v0.17.0-rium.1/Rium-Studio-Setup-x64.exe)
 
-1. ZIP 파일을 다운로드해 쓰기 가능한 폴더에 압축을 풉니다.
-2. **설치:** `Install Rium Studio.cmd`를 실행합니다.
-3. **포터블:** 설치 없이 `Rium Studio.cmd`를 실행합니다.
+1. **`Rium-Studio-Setup-x64.exe`**를 다운로드해 실행합니다.
+2. 설치 화면에서 **Install**을 누릅니다. 압축 해제나 스크립트 실행은 필요하지 않습니다.
+3. 바탕화면이나 시작 메뉴에서 **Rium Studio**를 엽니다.
+
+[설치 없이 사용하는 포터블 ZIP →](https://github.com/contentriumkorea/rium-studio/releases/download/v0.17.0-rium.1/Rium-Studio-Windows-x64.zip)
 
 [상세 설치 및 업데이트 안내 →](INSTALL.md)
 
@@ -45,15 +47,15 @@ Windows x64용 미리보기 배포입니다. Microsoft Visual C++ x64 런타임�
 
 | 방식 | 사용 방법 |
 | :--- | :--- |
-| 사용자 계정에 설치 | ZIP 압축 해제 후 설치 스크립트 실행. 바탕화면·시작 메뉴 바로가기를 만듭니다. |
-| 포터블 실행 | 같은 ZIP에서 실행 스크립트를 엽니다. 설정은 패키지 옆 `data` 폴더에 저장합니다. |
-| CLI | 패키지 폴더의 터미널에서 `rium.cmd`를 실행합니다. |
+| EXE로 설치 | 설치파일 하나를 실행합니다. 현재 사용자 계정에 설치하고 바탕화면·시작 메뉴 바로가기를 만듭니다. |
+| 포터블 ZIP | 설치 없이 쓸 때 선택합니다. 압축 해제 후 실행하며 설정은 패키지 옆 `data` 폴더에 저장합니다. |
+| CLI | 설치 폴더에서 `rium.exe`를 사용합니다. 포터블 ZIP은 `rium.cmd`를 사용합니다. |
 
 ## 이렇게 사용하세요
 
 ```text
-rium.cmd --help
-rium.cmd
+rium.exe --help
+rium.exe
 ```
 
 AI 계정이나 API 이용권은 포함하지 않습니다. 사용하는 AI 도구에서 CLI 호출을 구성해야 합니다.
@@ -73,7 +75,7 @@ AI 계정이나 API 이용권은 포함하지 않습니다. 사용하는 AI 도�
 </details>
 <details><summary><strong>English overview</strong></summary>
 
-Rium Studio is a Windows video editor with timeline editing, editable text and effects, and a local session shared by its UI and CLI. This preview includes a ZIP package with optional per-user installation. It is unsigned and has not completed functional acceptance testing.
+Rium Studio is a Windows video editor with timeline editing, editable text and effects, and a local session shared by its UI and CLI. This preview provides a single EXE installer for per-user installation, with an optional portable ZIP. It is unsigned and has not completed functional acceptance testing.
 
 </details>
 
