@@ -1,8 +1,8 @@
 <p align="center"><img src="assets/cover.svg" alt="Rium Studio — 하나의 세션에서 함께 편집" width="100%"></p>
 <h1 align="center">Rium Studio</h1>
 <p align="center"><strong>타임라인 편집과 명령 기반 작업을 하나의 편집 세션에서.</strong><br>영상을 자르고, 자막과 효과를 더하고, CLI를 통해 편집 작업을 연결하는 영상 편집기입니다.</p>
-<p align="center"><a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.39"><img src="https://img.shields.io/badge/Release-0.17.0_Preview_39-white?style=flat-square" alt="0.17.0 Preview 39"></a> <img src="https://img.shields.io/badge/Windows-x64-525a66?style=flat-square" alt="Windows x64"> <a href="LICENSE-MIT"><img src="https://img.shields.io/badge/License-MIT_OR_Apache--2.0-525a66?style=flat-square" alt="License"></a></p>
-<p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.39">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="INSTALL.md">상세 안내</a></p>
+<p align="center"><a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.40"><img src="https://img.shields.io/badge/Release-0.17.0_Preview_40-white?style=flat-square" alt="0.17.0 Preview 40"></a> <img src="https://img.shields.io/badge/Windows-x64-525a66?style=flat-square" alt="Windows x64"> <a href="LICENSE-MIT"><img src="https://img.shields.io/badge/License-MIT_OR_Apache--2.0-525a66?style=flat-square" alt="License"></a></p>
+<p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.40">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="INSTALL.md">상세 안내</a></p>
 
 ---
 
@@ -10,7 +10,7 @@
 
 Windows 10/11 x64용 미리보기 배포입니다. 설치 EXE에 프로그램 본체와 필요한 실행 라이브러리를 포함했습니다. 시작 시 준비 화면이 나타나며 데모 프로젝트는 자동으로 열리지 않습니다.
 
-[![Download](https://img.shields.io/badge/Download-Rium_Studio_for_Windows-20242c?style=for-the-badge&logo=windows)](https://github.com/contentriumkorea/rium-studio/releases/download/v0.17.0-rium.39/Rium-Studio-Setup-x64.exe)
+[![Download](https://img.shields.io/badge/Download-Rium_Studio_for_Windows-20242c?style=for-the-badge&logo=windows)](https://github.com/contentriumkorea/rium-studio/releases/download/v0.17.0-rium.40/Rium-Studio-Setup-x64.exe)
 
 1. **`Rium-Studio-Setup-x64.exe`**를 다운로드해 실행합니다.
 2. 설치 화면에서 **Install**을 누릅니다. 압축 해제나 스크립트 실행은 필요하지 않습니다.
@@ -72,7 +72,7 @@ AI 계정이나 API 이용권은 포함하지 않습니다. 사용하는 AI 도�
 
 <details><summary><strong>상세 안내와 검증 범위</strong></summary>
 
-배포 빌드·패키지 파일 목록·SHA-256 및 다운로드 연결을 확인합니다. 이번 릴리스에서는 색상 섹션 자동 스크롤을 개선했으며 색상 UI 14건과 패널 공통 동작 67건을 자동 검수했습니다. HDR 색상 매칭은 아직 지원하지 않습니다. 전체 기능 검수는 완료되지 않았습니다. 설치 방법은 [INSTALL.md](INSTALL.md), 변경 사항은 [릴리스](https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.39)를 참고하세요.
+배포 빌드·패키지 파일 목록·SHA-256 및 다운로드 연결을 확인합니다. 이번 릴리스에서는 같은 프로젝트 세션 내에서 클립별 키프레임 확대 위치를 기억하며, 키프레임 UI 46건과 패널 공통 동작 67건을 자동 검수했습니다. HDR 색상 매칭은 아직 지원하지 않습니다. 전체 기능 검수는 완료되지 않았습니다. 설치 방법은 [INSTALL.md](INSTALL.md), 변경 사항은 [릴리스](https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.40)를 참고하세요.
 
 </details>
 <details><summary><strong>English overview</strong></summary>
@@ -82,5 +82,5 @@ Rium Studio is a Windows video editor with timeline editing, editable text and e
 </details>
 
 ---
-<p align="center"><strong>CONTENTRIUM</strong><br><a href="LICENSE-MIT">MIT</a> · <a href="LICENSE-APACHE">Apache-2.0</a> · <a href="NOTICE">저작권 및 제3자 고지</a> · <a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.39">Latest release</a></p>
+<p align="center"><strong>CONTENTRIUM</strong><br><a href="LICENSE-MIT">MIT</a> · <a href="LICENSE-APACHE">Apache-2.0</a> · <a href="NOTICE">저작권 및 제3자 고지</a> · <a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.40">Latest release</a></p>
 <p align="center"><a href="https://contentrium.com/"><img src="https://img.shields.io/badge/CONTENTRIUM-홈페이지_바로가기-20242c?style=for-the-badge" alt="콘텐츠리움 홈페이지 바로가기"></a></p>
