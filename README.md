@@ -2,11 +2,15 @@
 <h1 align="center">Rium Studio</h1>
 <p align="center"><strong>타임라인 편집과 명령 기반 작업을 하나의 편집 세션에서.</strong><br>영상을 자르고, 자막과 효과를 더하고, CLI를 통해 편집 작업을 연결하는 영상 편집기입니다.</p>
 <p align="center"><a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.109"><img src="https://img.shields.io/badge/Release-0.17.0_Preview_109-white?style=flat-square" alt="0.17.0 Preview 109"></a> <img src="https://img.shields.io/badge/Windows-x64-525a66?style=flat-square" alt="Windows x64"> <a href="LICENSE-MIT"><img src="https://img.shields.io/badge/License-MIT_OR_Apache--2.0-525a66?style=flat-square" alt="License"></a></p>
-<p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.109">다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="INSTALL.md">상세 안내</a></p>
+<p align="center"><a href="#빠르게-시작하기">설치하기</a> · <a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.109">Windows 다운로드</a> · <a href="https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.150">Mac 다운로드</a> · <a href="#사용-모습">사용 모습</a> · <a href="INSTALL.md">상세 안내</a></p>
 
 ---
 
 ## 빠르게 시작하기
+
+[![Apple Silicon Mac용 Rium Studio 다운로드](https://img.shields.io/badge/Download-Rium_Studio_for_Apple_Silicon-20242c?style=for-the-badge&logo=apple)](https://github.com/contentriumkorea/rium-studio/releases/download/v0.17.0-rium.150/Rium-Studio-macos-arm64.dmg)
+
+Apple Silicon Mac에서는 DMG를 열고 Rium Studio를 응용 프로그램 폴더로 옮기세요. [Mac Preview 150 설치 안내](https://github.com/contentriumkorea/rium-studio/releases/tag/v0.17.0-rium.150)
 
 Windows 10/11 x64용 미리보기 배포입니다. 설치 EXE에 프로그램 본체와 필요한 실행 라이브러리를 포함했습니다. 시작 시 준비 화면이 나타나며 데모 프로젝트는 자동으로 열리지 않습니다.
 
@@ -62,7 +66,7 @@ AI 계정이나 API 이용권은 포함하지 않습니다. 사용하는 AI 도�
 
 ## 적용 범위와 제한
 
-- 이번 배포는 Windows x64 미리보기 버전입니다. macOS·Linux 실행 파일은 포함하지 않습니다.
+- Windows와 Apple Silicon Mac의 미리보기 설치 파일을 각각 제공합니다.
 - GUI와 CLI의 공유 세션은 같은 PC의 같은 사용자 계정 범위입니다. 여러 PC의 공동 편집 서비스는 아닙니다.
 - 마지막 패널 배치는 종료 후에도 자동으로 복원됩니다. 이전 버전에서 저장되지 않았던 배치는 한 번 다시 설정해야 합니다.
 - 외부 파일은 저장된 변경만 감지할 수 있습니다. 저장하지 않은 편집이나 동시 변경은 자동 병합되지 않으며, 프로젝트를 다시 읽으면 실행 취소 내역·화면 상태가 초기화될 수 있습니다.
